@@ -18,3 +18,14 @@ Abstract Here
 
 \end{abstract}
 
+\section{Introduction}
+\subsection{Problem Motivation}
+
+Software defined networks present unique vulnerabilities due to the seperation between the data plane and the control plane. Such threats include exploiting the communication between the controller and network switches and the centralization of the control planes allows for the entire network to be from a single spot by an attacker [1]. As software defined networks become more popular, attackers will want to distinguish the difference between SDN and traditional networks prior to beginning their exploitation and attack. It then becomes beneficial for a network administrator to be able to detect such network fingerprinting attempts to prepare for and prevent future attacks. Through recent research conducted be Seungwon Shin and Guofei Gu [2] it is possible to distinguish a SDN from traditional networks based on packet return times for established flow rules and new flow rules. THe structure of reactionary SDNs pushes packets that do not currently fit a flow rule to the controller to establish a new flow rule before being forwarded on to its destination; this creares a delay in the packet flow process. If a second packet is sent through with matching headers it will match the new rule that was generated from the last packet, allowing it to flow without the additional time delay. Shin and Gu show that as this process is repeated changing a single value within the packet header, the differences between the return times can indicate the delay from flow rule generation and identify the target as a node within a software defined network.
+
+\subsection{Current Solutions}
+
+
+\bibliographystyle{plain}
+\bibliography{ref)
+
