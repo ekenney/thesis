@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{CISCO}
+Corporate Headquarters.
+\newblock {\em Server Farm Security in the Business Ready Data Center
+  Architecture}, chapter Cisco Network-Based Intrusion Detection -
+  Functionalities and Configuration.
+\newblock Cisco Systems, 2006.
+
+\bibitem{kreutz}
+Diego Kreutz, Fernando Ramos, and Paulo Verissimo.
+\newblock Towards secure and dependable software-defined networks.
+\newblock In {\em SIGCOMM Hong Kong}, 2013.
+
+\bibitem{mehdi13}
+Syed~Akbar Mehdi, Junaid Khalid, and Syed~Ali Khayam.
+\newblock Revisiting traffic anomaly detection using software defined
+  networking.
+\newblock Master's thesis, National University of Science and Technology
+  Islamabad, Pakistan, 2013.
+
+\bibitem{SANS}
+SANS Institute InfoSec Reading Room.
+\newblock {\em Understanding Intrusion Detection Systems}, 2001.
+
+\bibitem{FRESCO}
+Seugwon Shin, Phillip Porras, Vinod Yegneswaran, Martin Fong, Guofei Gu, and
+  Mabry Tyson.
+\newblock Fresco: Modular composable security services for software-defined
+  networks.
+\newblock In {\em SIGCOMM Hong Kong}, 2013.
+
+\bibitem{Gu13}
+Seungwon Shin and Guofei Gu.
+\newblock Attacking software-defined networks: A first feasibility study.
+\newblock In {\em SIGCOMM Hong Kong}, 2013.
+
+\end{thebibliography}
