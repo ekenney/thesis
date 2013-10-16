@@ -31,6 +31,10 @@ There are many current solutions to the need for intrusion detection systems dep
 
 In order to identify a scanning attempt on a SDN I will utilize the need for duplicate packets to test for the delay of adding flow rules. In order to effectively detect this attack you must identify a series of duplicate packets with single header field changes. The challenge that arises is distinguishing these packets from normal network traffic and minimizing the state requirements of the machine. 
 
+\section{Related Works}
+
+As SDN gains in popularity more people begin working on the problem of securing the networks against attackers. Research done by Mehdi et al [Mehdi] has implemented several algorithims for effectively monitoring for network traffic anomalies in SDN. The methods that they explored were Thresholld Random Walk with Credit Based Rate Limiting, Rate Limiting, Maximum Entropy Detection, and NETAD. In their comparison they implemented these strategies using NOX in C++. This research showed that it is possible to detect traffic anomalies produced by TCP Port Scans with both high and low flow rates as well as both TCP and UDP floods.
+
 
 \bibliographystyle{plain}
 \bibliography{ref)

@@ -1,6 +1,6 @@
 % SDN Paper Shell
 
-\documentclass{article}
+\documentclass[twocolumn]{article}
 \usepackage{times}
 
 \begin{document}
