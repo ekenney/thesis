@@ -1,6 +1,42 @@
-@mastersthesis{kreutz,
+@inproceedings{kreutz,
 	author = "Diego Kreutz and Fernando Ramos and Paulo Verissimo",
 	title = "Towards Secure and Dependable Software-Defined Networks",
-	school = "University of Lisbon, Portugal",
-	year = ""
+	booktitle = "SIGCOMM Hong Kong",
+	year = "2013"
 	}
+
+@inproceedings{Gu13,
+	author = "Seungwon Shin and Guofei Gu",
+	title = "Attacking Software-Defined Networks: A First Feasibility Study",
+	booktitle = "SIGCOMM Hong Kong",
+	year = "2013"
+	}
+
+@manual{SANS,
+	title = "Understanding Intrusion Detection Systems",
+	organization = "SANS Institute InfoSec Reading Room",
+	year = "2001"
+	}
+
+@inbook{CISCO,
+	title = "Server Farm Security in the Business Ready Data Center Architecture",
+	author = "Corporate Headquarters",
+	chapter = "Cisco Network-Based Intrusion Detection - Functionalities and Configuration",
+	publisher = "Cisco Systems",
+	year = "2006"
+	}
+
+@mastersthesis{mehdi13,
+	author = "Syed Akbar Mehdi and Junaid Khalid and Syed Ali Khayam",
+	title = "Revisiting Traffic Anomaly Detection using Software Defined Networking",
+	school = "National University of Science and Technology Islamabad, Pakistan",
+	year = "2013"
+	}
+
+@inproceedings{shin,
+	author = "Seugwon Shin and Phillip Porras and Vinod Yegneswaran and Martin Fong and Guofei Gu and Mabry Tyson",
+	title = "FRESCO: Modular Composable Security Services for Software-Defined Networks",
+	booktitle = "SIGCOMM Hong Kong",
+	year = "2013"
+	}
+
