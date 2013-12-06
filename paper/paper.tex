@@ -14,7 +14,7 @@
 
 \begin{abstract}
 
-Abstract Here
+Software defined networks (SDN) provide network administrators the ability to easily control the flow of traffic within their networks by seperating the data and control planes and centralizing the flow rules in a single system. Like any new technology SDN not only makes a task easier but opens up new vulnerabilities to the system. Due to the centralization of network control a potential attacker could control an entire network from this single location. With this vulnerability it becomes beneficial for an attacker to distinguish a traditional network from a SDN. In \cite{Gu13} this potential is demonstrated by exploiting the delay associated with creating new flow rules in the controller. "Insert cool name here" is a program that will identify these fingerprintting attempts by keeping track of packet pairs that have only a single header difference between the pairs. "Name" was tested using a pyretic SDN and ostinato traffic generator. Trials were run with traffic based on a standard home network, and an enterprise network running mail and web servers. The results from the trials show that...
 
 \end{abstract}
 
@@ -29,7 +29,7 @@ There are many current solutions to the need for intrusion detection systems dep
 
 \subsection{My Solution}
 
-In order to identify a scanning attempt on a SDN I will utilize the need for duplicate packets to test for the delay of adding flow rules. In order to effectively detect this attack you must identify a series of duplicate packets with single header field changes. The challenge that arises is distinguishing these packets from normal network traffic and minimizing the state requirements of the machine. 
+In order to identify a scanning attempt on a SDN "name" will utilize the need for duplicate packets to test for the delay of adding flow rules. In order to effectively detect this attack you must identify a series of duplicate packets with single header field changes. The challenge that arises is distinguishing these packets from normal network traffic and minimizing the state requirements of the machine. When packets come through the system they are held for x seconds if no duplicate packets are received the record will be discarded. If a duplicate is received it are flagged and added to a watchlist. As more duplicates pass through the network and are appended to the watch list they are compared to the headers of the previous entries. When y pairs of packets are detected with a single change in the header a new rule will be created blocking traffic from that source address.
 
 \section{Related Works}
 
